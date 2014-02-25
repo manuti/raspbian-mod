@@ -1,4 +1,3 @@
-<img src="http://www.raspberrypi.org/wp-content/uploads/2012/03/Raspi_Colour_R.png" width="90" />
 
 # Overview
 
@@ -14,11 +13,9 @@ Bonjour support means that you can SSH into your Pi without having to know it's 
 
 In addition to slimming down Raspbian by removing the GUI, Raspbian-mod also features:
 
-* Ruby 1.9.3
 * Git
 * Bonjour
 * [Hexxeh firmware update](https://github.com/Hexxeh/rpi-update)
-* Full Vim (with syntax highlighting enabled)
 
 # Building
 
@@ -26,7 +23,6 @@ You can build your own Raspbian-mod by starting with with the official image fro
 
 Once you've created your Raspbian SD card, boot your Raspberry Pi and execute this command from the command prompt:
 
-    sudo bash < <( curl https://raw.github.com/jwhitehorn/raspbian-mod/master/slim.sh )
+    sudo bash < <( curl https://github.com/manuti/raspbian-mod/master/slim.sh )
     
 This command will take several minutes to complete, and should leave you with a freshly optimized Raspbian installation.
-
